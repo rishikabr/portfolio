@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Projects</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style>
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .know-more {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      color: #fff;
+      background-color: #6c757d;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+  .know-more:hover {
+    background-color: #5a6268;
+    }
+</style>
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear">
+    <div class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <ul class="nospace">
+        <li><i class="fas fa-phone rgtspace-5"></i><a href="tel:+00 (123) 456 7890">Call</a></li>
+        <li><i class="far fa-envelope rgtspace-5"></i><a href="mailto:rishikabr217@gmail.com">Email</a> </li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded" style="background-image:url('../images/demo/backgrounds/background-1.jpg');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+        <!-- ################################################################################################ -->
+        <h1><a href="index.html">Rishika B R</a></h1>
+        <!-- ################################################################################################ -->
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        <!-- ################################################################################################ -->
+        <ul class="clear">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li class="active"><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li ><a href="contacts.html">Contact</a></li>
+        </ul>
+        <!-- ################################################################################################ -->
+      </nav>
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="overlay">
+    <div id="breadcrumb" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <h6 class="heading">Projects</h6>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <div id="projects">
+        <figure>
+          <header class="heading">Projects</header>
+          <ul class="nospace clear">
+            <li class="one_third first">
+              <div class="project-item">
+                <h3>Indian Sign Language Recognition and translation to multiple languages using CNN based architecture</h3>
+                <a href="#"><img src="../images/demo/gallery/project-1.webp" alt=""></a><br><br>
+                <button class="know-more" data-description="Utilized advanced Computer Vision techniques for processing and feature extraction from images and videos. Implemented a hybrid model combining Deep Learning and LSTM for accurate sequence prediction. Leveraged Natural Language Processing (NLP) with Googletrans for translating recognized words into multiple languages. Developed a user-friendly interface using Streamlit for seamless interaction and display of translations. This comprehensive approach ensured accurate recognition and effective translation of Indian Sign Language into various languages.">Know More</button>
+              </div>
+            </li>
+            <li class="one_third">
+              <div class="project-item">
+                <h3>Mental Health Detection with Natural Language Processing </h3><br>
+                <a href="#"><img src="../images/demo/gallery/project-2.webp" alt=""></a><br><br>
+                <button class="know-more" data-description="Utilized advanced natural language processing (NLP) techniques to analyze textual data for the detection of mental health indicators. The system effectively processes and categorizes mental health-related inputs, enabling accurate identification of potential issues. By understanding the context and nuances in text, the system offers targeted support and resources. This approach not only enhances early detection but also facilitates personalized intervention, improving overall mental health outcomes.">Know More</button>
+              </div>
+            </li>
+            <li class="one_third">
+              <div class="project-item">
+                <h3>Parkinson's Disease Detection with a Hybridised Machine Learning Model</h3><br>
+                <a href="#"><img src="../images/demo/gallery/project-3.webp" alt=""></a><br><br>
+                <button class="know-more" data-description="Implemented a hybrid model combining machine learning and deep learning algorithms to detect patterns indicative of Parkinson's disease in patient data. Leveraged advanced preprocessing techniques tailored to the unique characteristics of Parkinson's data for precise analysis. This integrated approach enhanced the model's ability to identify subtle indicators, improving early detection and diagnosis accuracy. The system's robust design ensures reliable performance in diverse clinical scenarios, contributing to better patient outcomes">Know More</button><br>
+              </div>
+            </li>
+            <li class="one_third first">
+              <div class="project-item">
+                <h3>Hospital Patient Registration </h3>
+                <a href="#"><img src="../images/demo/gallery/project-4.webp" alt=""></a><br><br>
+                <button class="know-more" data-description="Developed a system to maintain comprehensive patient records, including their history, diagnosis, and treatment, accessible across multiple branches using MySQL. The project aimed to eliminate data confusion and mix-ups, ensuring accurate and streamlined patient information management. This centralized approach enhances data integrity, supports efficient patient care, and facilitates seamless information retrieval across various medical facilities.">Know More</button>
+              </div>
+            </li>
+          </ul>
+        </figure>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p id="modal-description"></p>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.know-more').forEach(button => {
+    button.addEventListener('click', () => {
+      document.getElementById('modal-description').innerText = button.getAttribute('data-description');
+      document.getElementById('myModal').style.display = 'block';
+    });
+  });
+
+  document.querySelector('.close').addEventListener('click', () => {
+    document.getElementById('myModal').style.display = 'none';
+  });
+
+  window.addEventListener('click', (event) => {
+    if (event.target == document.getElementById('myModal')) {
+      document.getElementById('myModal').style.display = 'none';
+    }
+  });
+</script>
+
+</body>
+</html>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper coloured">
+  <section id="ctdetails" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="nospace clear">
+      <li class="one_quarter first">
+        <div class="block clear"><a href="#"><i class="fas fa-phone"></i></a> <span><strong>Give me a call:</strong> +00 (123) 456 7890</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="#"><i class="fas fa-envelope"></i></a> <span><strong>Send me a mail:</strong>rishikabr217@gmail.com</span></div>
+      </li>
+      <li class="one_quarter">
+        <div class="block clear"><a href="#"><i class="fas fa-clock"></i></a> <span><strong> Monday - Saturday:</strong> 08.00am - 18.00pm</span></div>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
+<script src="../layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
